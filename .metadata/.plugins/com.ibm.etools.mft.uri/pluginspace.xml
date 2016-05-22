@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pluginspace>
+<plugin id="MQTTNodes" version="1.1.0.v20160310-1307"/>
+<plugin id="RMSLogger" version="1.0.0.201602010955"/>
+<plugin id="SplunkLogNodes" version="1.0.0.201604260033"/>
+<plugin id="com.ibm.etools.mft.connector.salesforce" version="10.0.400.v20160310-1307"/>
+<plugin id="com.ibm.etools.mft.mapping.codegen.esql" version="10.0.400.v20160310-1307"/>
+</pluginspace>

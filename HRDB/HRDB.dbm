@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.8.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_eAWaMB-6EeacjfLYHspc1w" name="HRDB" vendor="DB2 UDB" version="V9.7" schemas="_eAgLMB-6EeacjfLYHspc1w" authorizationIds="_eAgLMR-6EeacjfLYHspc1w _eAgLax-6EeacjfLYHspc1w" federated="true">
+    <eAnnotations xmi:id="_eAWaMR-6EeacjfLYHspc1w" source="ConnectionURI">
+      <details xmi:id="_eAWaMh-6EeacjfLYHspc1w" key="ConnectionKey" value="HRDB1"/>
+    </eAnnotations>
+  </LUW:LUWDatabase>
+  <DB2Model:DB2Schema xmi:id="_eAgLMB-6EeacjfLYHspc1w" name="IIBADMIN" privileges="_eAgLTR-6EeacjfLYHspc1w _eAgLXx-6EeacjfLYHspc1w _eAgLSh-6EeacjfLYHspc1w" tables="_eAp8MB-6EeacjfLYHspc1w _eAgLbB-6EeacjfLYHspc1w" database="_eAWaMB-6EeacjfLYHspc1w" owner="_eAgLMR-6EeacjfLYHspc1w"/>
+  <SQLAccessControl:User xmi:id="_eAgLMR-6EeacjfLYHspc1w" name="IIBUSER" description="" ownedSchema="_eAgLMB-6EeacjfLYHspc1w" Database="_eAWaMB-6EeacjfLYHspc1w">
+    <receivedPrivilege xmi:id="_eAgLMh-6EeacjfLYHspc1w" grantable="true" action="UPDATE" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLMx-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLNB-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLNR-6EeacjfLYHspc1w" grantable="true" action="SELECT" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLNh-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLNx-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLOB-6EeacjfLYHspc1w" grantable="true" action="DELETE" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLOR-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLOh-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLOx-6EeacjfLYHspc1w" grantable="true" action="DELETE" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLPB-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLPR-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLPh-6EeacjfLYHspc1w" grantable="true" action="SELECT" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLPx-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLQB-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLQR-6EeacjfLYHspc1w" grantable="true" action="INSERT" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLQh-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLQx-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLRB-6EeacjfLYHspc1w" grantable="true" action="UPDATE" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLRR-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLRh-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLRx-6EeacjfLYHspc1w" grantable="true" action="INDEX" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLSB-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLSR-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLSh-6EeacjfLYHspc1w" grantable="true" action="DROPIN" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLMB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLSx-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLTB-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLTR-6EeacjfLYHspc1w" grantable="true" action="ALTERIN" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLMB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLTh-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLTx-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLUB-6EeacjfLYHspc1w" grantable="true" action="REFERENCES" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLUR-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLUh-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLUx-6EeacjfLYHspc1w" grantable="true" action="INDEX" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLVB-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLVR-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLVh-6EeacjfLYHspc1w" action="CONTROL" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLVx-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLWB-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLWR-6EeacjfLYHspc1w" grantable="true" action="REFERENCES" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLWh-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLWx-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLXB-6EeacjfLYHspc1w" grantable="true" action="ALTER" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLXR-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLXh-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLXx-6EeacjfLYHspc1w" grantable="true" action="CREATEIN" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLMB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLYB-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLYR-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLYh-6EeacjfLYHspc1w" grantable="true" action="ALTER" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLYx-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLZB-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLZR-6EeacjfLYHspc1w" grantable="true" action="INSERT" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAp8MB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLZh-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLZx-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_eAgLaB-6EeacjfLYHspc1w" action="CONTROL" grantor="_eAgLax-6EeacjfLYHspc1w" object="_eAgLbB-6EeacjfLYHspc1w">
+      <eAnnotations xmi:id="_eAgLaR-6EeacjfLYHspc1w" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_eAgLah-6EeacjfLYHspc1w" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+  </SQLAccessControl:User>
+  <SQLAccessControl:User xmi:id="_eAgLax-6EeacjfLYHspc1w" name="SYSIBM" Database="_eAWaMB-6EeacjfLYHspc1w" grantedPrivilege="_eAgLMh-6EeacjfLYHspc1w _eAgLNR-6EeacjfLYHspc1w _eAgLOB-6EeacjfLYHspc1w _eAgLOx-6EeacjfLYHspc1w _eAgLPh-6EeacjfLYHspc1w _eAgLQR-6EeacjfLYHspc1w _eAgLRB-6EeacjfLYHspc1w _eAgLRx-6EeacjfLYHspc1w _eAgLSh-6EeacjfLYHspc1w _eAgLTR-6EeacjfLYHspc1w _eAgLUB-6EeacjfLYHspc1w _eAgLUx-6EeacjfLYHspc1w _eAgLVh-6EeacjfLYHspc1w _eAgLWR-6EeacjfLYHspc1w _eAgLXB-6EeacjfLYHspc1w _eAgLXx-6EeacjfLYHspc1w _eAgLYh-6EeacjfLYHspc1w _eAgLZR-6EeacjfLYHspc1w _eAgLaB-6EeacjfLYHspc1w"/>
+  <LUW:LUWTable xmi:id="_eAgLbB-6EeacjfLYHspc1w" name="DEPARTMENT" privileges="_eAgLaB-6EeacjfLYHspc1w _eAgLYh-6EeacjfLYHspc1w _eAgLOx-6EeacjfLYHspc1w _eAgLUx-6EeacjfLYHspc1w _eAgLQR-6EeacjfLYHspc1w _eAgLNR-6EeacjfLYHspc1w _eAgLWR-6EeacjfLYHspc1w _eAgLMh-6EeacjfLYHspc1w" schema="_eAgLMB-6EeacjfLYHspc1w" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAgLbR-6EeacjfLYHspc1w" name="DEPTNO" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAgLbh-6EeacjfLYHspc1w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAgLbx-6EeacjfLYHspc1w" name="DEPTNAME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAgLcB-6EeacjfLYHspc1w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="36"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAgLcR-6EeacjfLYHspc1w" name="MGRNO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAgLch-6EeacjfLYHspc1w" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAgLcx-6EeacjfLYHspc1w" name="ADMRDEPT" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAgLdB-6EeacjfLYHspc1w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAgLdR-6EeacjfLYHspc1w" name="LOCATION">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAgLdh-6EeacjfLYHspc1w" name="CHAR" length="16"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_eAp8MB-6EeacjfLYHspc1w" name="EMPLOYEE" privileges="_eAgLVh-6EeacjfLYHspc1w _eAgLXB-6EeacjfLYHspc1w _eAgLOB-6EeacjfLYHspc1w _eAgLRx-6EeacjfLYHspc1w _eAgLZR-6EeacjfLYHspc1w _eAgLPh-6EeacjfLYHspc1w _eAgLUB-6EeacjfLYHspc1w _eAgLRB-6EeacjfLYHspc1w" schema="_eAgLMB-6EeacjfLYHspc1w" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8MR-6EeacjfLYHspc1w" name="EMPNO" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8Mh-6EeacjfLYHspc1w" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Mx-6EeacjfLYHspc1w" name="FIRSTNME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8NB-6EeacjfLYHspc1w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="12"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8NR-6EeacjfLYHspc1w" name="MIDINIT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8Nh-6EeacjfLYHspc1w" name="CHAR"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Nx-6EeacjfLYHspc1w" name="LASTNAME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8OB-6EeacjfLYHspc1w" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8OR-6EeacjfLYHspc1w" name="WORKDEPT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8Oh-6EeacjfLYHspc1w" name="CHAR" length="3"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Ox-6EeacjfLYHspc1w" name="PHONENO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8PB-6EeacjfLYHspc1w" name="CHAR" length="4"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8PR-6EeacjfLYHspc1w" name="HIREDATE">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_eAp8Ph-6EeacjfLYHspc1w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Px-6EeacjfLYHspc1w" name="JOB">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8QB-6EeacjfLYHspc1w" name="CHAR" length="8"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8QR-6EeacjfLYHspc1w" name="EDLEVEL" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_eAp8Qh-6EeacjfLYHspc1w" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Qx-6EeacjfLYHspc1w" name="SEX">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_eAp8RB-6EeacjfLYHspc1w" name="CHAR"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8RR-6EeacjfLYHspc1w" name="BIRTHDATE">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_eAp8Rh-6EeacjfLYHspc1w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Rx-6EeacjfLYHspc1w" name="SALARY">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_eAp8SB-6EeacjfLYHspc1w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8SR-6EeacjfLYHspc1w" name="BONUS">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_eAp8Sh-6EeacjfLYHspc1w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_eAp8Sx-6EeacjfLYHspc1w" name="COMM">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_eAp8TB-6EeacjfLYHspc1w" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>
